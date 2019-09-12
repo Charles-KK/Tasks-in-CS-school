@@ -1,0 +1,76 @@
+Supplier(supplier_id, name, account_no, email, phone_number, phone_type)
+
+
+68914260
+Charlotte J Sanders
+Credit Card Number
+4532233710293628
+rnukj@claimab.com
+07903302713
+
+
+18293802
+Luca A Parker
+4916291593063555
+rnuahct2kj@claimab.com
+079 5714 9984
+
+
+10283749
+Scarlett M Sheppard
+4716255974219518
+6lncmkrs0yb@payspun.com
+070 6951 9975
+
+
+29381038
+Charlie S Cole
+070 3074 2734
+wpydmy8ewx@claimab.com
+5126746233058482
+
+38293019
+Samuel M McDonald
+079 4413 8752
+nwjfnbb49qq@payspun.com
+4556003141517072
+
+
+19203920
+Niamh R Akhtar
+077 5711 8796
+wt8goba9tar@payspun.com
+4556366096543660
+
+10293029
+Muhammad
+070 4285 4957
+a8fzcbp9vcp@iffymedia.com
+5597294292322119
+
+
+29374653
+Corey
+078 4443 7359
+8hu7onk4i9b@claimab.com
+5415927718262290
+
+38402830
+Declan
+077 6137 4167
+q8qrhco19ei@claimab.com
+5537906453657412
+
+
+39247592
+Harriet
+070 1106 3157
+c94qyukn9ul@fakemailgenerator.net
+4485077242461295
+
+
+28392038
+Danielle
+077 3322 4203
+2xs3g8xy4b2@thrubay.com
+4485715595314252

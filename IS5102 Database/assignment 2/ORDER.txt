@@ -1,0 +1,102 @@
+Order(order_id, delivery_street, delivery_ city, delivery_ postcode, delivery_ country, date_ordered
+date_delivered)
+
+183706081728517935
+Street
+77 Roman Rd
+City
+LEEDS
+Zip Code
+LS1 2DX
+United Kingdom
+20180203
+20180213
+
+183787382913744533
+Street
+33 Park Row
+City
+EDINBURGH
+Zip Code
+EH3 3NS
+
+
+183940272000283929
+Street
+30 Nith Street
+City
+GLASGOW
+Zip Code
+G1 9FG
+
+
+
+182239809319203027
+Street
+93 Church Way
+City
+BRADFORD
+Zip Code
+EX22 8BL
+
+
+182039358718988777
+Street
+60 Park Row
+City
+EDINBURGH
+Zip Code
+EH3 9HL
+
+189809928222773619
+Street
+18 Ploughley Rd
+City
+TODHILLS
+Zip Code
+DD4 5SS
+
+
+180289834509128310
+Street
+33 Guild Street
+City
+LONDON
+Zip Code
+EC1A 8YX
+
+182098073826552218
+Street
+95 Park Row
+City
+EDINBURGH
+Zip Code
+EH5 1DB
+
+
+173846682623221289
+Street
+6 Iffley Road
+City
+BRISTOL
+Zip Code
+BS6 4EG
+
+
+181127909011011937
+Street
+1 Hudson St
+City
+DUNDEE
+Zip Code
+DD1 4YZ
+
+
+182233390918291689
+Street
+95 Hudson St
+City
+DUNDEE
+Zip Code
+DD1 2ZT
+
