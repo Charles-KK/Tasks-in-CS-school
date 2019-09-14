@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS3-All you need to know about CSS3. </title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="css/style.css">  
+
+</head>
+
+<body>
+    <a id="top"></a>
+<!-- BACK TO TOP label -->
+
+    <div class="container" >
+        <div class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item">CSS3</a>
+            <a class="navbar-item">Finding</a>
+            <a class="navbar-item">Topic</a>
+            <div class="navbar-item">
+              <div class="field is-grouped">
+                <div class="control has-icons-right">
+                  <input type="text" class="input"  title="input" style="width: 20rem;" placeholder="Finding...">
+                  <span class="icon is-right">
+                  <i class="fa fa-search"></i>
+                </span>
+                </div>
+                <div class="control">
+                  <input type="submit" class="button is-info" value="Question">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="navbar-end">
+            <a href="#" class="navbar-item">
+              <i class="fa fa-15 fa-bell"></i>
+            </a>
+            <a href="#" class="navbar-item">
+              <i class="fa fa-15 fa-comments"></i>
+            </a>
+            <a href="#" class="navbar-item">
+            <img src="images/css14.jpeg" alt="user image" width="30" height="30">
+            </a>
+          </div>
+        </div>
+      </div>
+<!-- navbar-menu end -->
+
+      <header id="header" class="bgc">
+        <p class="nav">All you need to know</p>
+        <p class="nav">about CSS3</p>
+        <a href="4.css3.html"> <img id="headerLogo" src="images/css1.png" alt="css header logo image" width="80" height="80"></a>
+      </header>
+   <!-- header end -->
+
+  <nav>
+  <div class="nav-wrapper">
+    <div class="spoofer"></div>
+    <a class="blue" href="1.index.html">HOME</a>
+    <a class="blue" href="2.introduction.html">INTRODUCTION</a>
+    <a class="blue" href="3.css.html">CSS</a>
+    <a class="blue" href="4.css3.html">CSS3</a>
+    <a class="blue" href="5.booklist.html">BOOKLIST</a>
+    <a class="blue" href="6.news.html">NEWS</a>
+  </div>
+</nav>
+ <!-- nav end -->
+
+
+<nav class="toc">
+    <ul>
+      <li class="font"><a href="#intro">Intro</a></li>
+      <li class="font">
+        <a href="#basis">CSS Basis</a>
+        <ul>
+          <li><a href="#Syntax">Syntax</a></li>
+          <li><a href="#Selectors">Selectors</a></li>
+          <li><a href="#Backgrounds">Backgrounds</a></li>
+          <li><a href="#Border">Border</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#Responsive">CSS Responsive</a>
+        <ul>
+          <li><a href="#RWD-Intro">RWD Intro</a></li>
+          <li><a href="#RWD-Viewport">RWD Viewport</a></li>
+          <li><a href="#RWD-Grid-View">RWD Grid View</a></li>
+        </ul>
+      </li>
+    </ul>
+    
+  </nav>
+
+  <div class="tile is-vertical is-parent is-10">
+    <div id="box2">
+      <div class="box">
+  <article class="contents">
+    <div id="intro">
+      <h1><strong>CSS Introduction</strong></h1>
+        <h2><strong>What is CSS?</strong></h2>
+        <p>CSS stands for Cascading Style Sheets</p>
+        <p>CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+          </p>
+          <p>External stylesheets are stored in CSS files
+            </p>
+          <p>CSS saves a lot of work. It can control the layout of multiple web pages all at once
+            </p>
+        <h2><strong>Why Use CSS?</strong></h2>
+        <p>CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes. 
+        CSS Solved a Big Problem.</p>
+        <p>HTML was NEVER intended to contain tags for formatting a web page!
+            HTML was created to describe the content of a web page, like:</p>
+        <h2>This is a heading</h2>
+        <p>This is a paragraph.</p>
+        <p>When tags like font, and color attributes were added to the HTML 3.2 specification, 
+          it started a nightmare for web developers. Development of large websites,
+           where fonts and color information were added to every single page, became 
+           a long and expensive process.</p>
+       <p> To solve this problem, the World Wide Web Consortium (W3C) created CSS.</p>
+        <p>CSS removed the style formatting from the HTML page!</p>
+       <h2><strong>CSS Saves a Lot of Work!</strong></h2>
+       <p>The style definitions are normally saved in external .css files.</p> 
+        <p>With an external stylesheet file, you can change the look of an entire website by changing just one file!</p>
+        </div>
+  
+    <section>
+     <div id="basis">        
+     
+     <h1><strong>CSS Basis</strong></h1>
+    </div>
+  
+      <div id="Syntax">
+          <h2><strong>CSS Syntax</strong></h2>
+          <p>The selector points to the HTML element you want to style.</p>
+          <p>The declaration block contains one or more declarations separated by semicolons.</p>
+          <p>Each declaration includes a CSS property name and a value, separated by a colon.</p>
+          <p>A CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces.</p>
+          
+   </div>
+  
+      <div id="Selectors">
+          <h2><strong>CSS Selectors</strong></h2>
+
+          <p>CSS selectors are used to "find" (or select) HTML elements based on their element name, id, class, attribute, and more.</p>
+          <h2><strong>The id Selector</strong></h2>
+          
+          <p>The id selector uses the id attribute of an HTML element to select a specific element.</p>
+          
+          <p>The id of an element should be unique within a page, so the id selector is used to select one unique element!</p>
+          
+          <p>To select an element with a specific id, write a hash (#) character, followed by the id of the element.</p>
+          
+          <h2><strong>The class Selector</strong></h2>
+          
+          <p>The class selector selects elements with a specific class attribute.</p>
+          
+          <p>To select elements with a specific class, write a period (.) character, followed by the name of the class.</p>
+          
+          <h2><strong>CSS Comments</strong></h2>
+          
+          <p>Comments are used to explain the code, and may help when you edit the source code at a later date.</p>
+          
+          <p>Comments are ignored by browsers.</p>
+          
+          <p>A CSS comment starts with /* and ends with */.</p>
+          
+   </div>
+  
+      <div id="Backgrounds">
+          <h2><strong>Background Color</strong></h2>
+
+          <p>The background-color property specifies the background color of an element.</p>
+          <p>With CSS, a color is most often specified by:</p>
+          
+          <p>a valid color name - like “red"</p>
+          
+          <p>a HEX value - like “#ff0000"</p>
+          
+          <p>an RGB value - like "rgb(255,0,0)"</p>
+          
+          
+          <h2><strong>Background Image</strong></h2>
+          
+          <p>The background-image property specifies an image to use as the background of an element.</p>
+          
+          <p>By default, the image is repeated so it covers the entire element.</p>
+          
+          
+          
+         
+      </div>
+  
+      <div id="Border">
+          <h2><strong>Border Style</strong></h2>
+          
+          <p>The border-style property specifies what kind of border to display.</p>
+          
+          <p>The following values are allowed:</p>
+          
+          <p>dotted - Defines a dotted border</p>
+          
+          <p>dashed - Defines a dashed border</p>
+          
+          <p>solid - Defines a solid border</p>
+          
+          <p>double - Defines a double border</p>
+          
+          <p>groove - Defines a 3D grooved border. The effect depends on the border-color value</p>
+          
+          <p>ridge - Defines a 3D ridged border. The effect depends on the border-color value</p>
+          
+          <p>inset - Defines a 3D inset border. The effect depends on the border-color value</p>
+          
+          <p>outset - Defines a 3D outset border. The effect depends on the border-color value</p>
+          
+          <p>none - Defines no border</p>
+          
+          <p>hidden - Defines a hidden border</p>
+          
+          <p>The border-style property can have from one to four values (for the top border, right border, bottom border, and the left border).</p>
+          
+          <h2><strong>Border Width</strong></h2>
+          <p>The border-width property specifies the width of the four borders.</p>
+          <p>The width can be set as a specific size (in px, pt, cm, em, etc) or by using one of the three pre-defined values: thin, medium, or thick.</p>
+          <p>The border-width property can have from one to four values (for the top border, right border, bottom border, and the left border).</p>
+          
+          <h2><strong>CSS Margins</strong></h2>
+          <p>The CSS margin properties are used to create space around elements, outside of any defined borders.</p>
+          <p>With CSS, you have full control over the margins. There are properties for setting the margin for each side of an element (top, right, bottom, and left).</p>
+          <h2><strong>Margin - Individual Sides</strong></h2>
+          <p>CSS has properties for specifying the margin for each side of an element:</p>
+          <p>margin-top</p>
+          <p>margin-right</p>
+          <p>margin-bottom</p>
+          <p>margin-left</p>
+          <p>All the margin properties can have the following values:</p>
+          <p>auto - the browser calculates the margin</p>
+          <p>length - specifies a margin in px, pt, cm, etc.</p>
+          <p>% - specifies a margin in % of the width of the containing element</p>
+          <p>inherit - specifies that the margin should be inherited from the parent element</p>
+          <p>Tip: Negative values are allowed.</p>
+          <h2><strong>Margin - Shorthand Property</strong></h2>
+          <p>To shorten the code, it is possible to specify all the margin properties in one property.</p>
+          <p>The margin property is a shorthand property for the following individual margin properties:</p>
+          <p>margin-top</p>
+          <p>margin-right</p>
+          <p>margin-bottom</p>
+          <p>margin-left</p>
+          <p>So, here is how it works:</p>
+          <p>If the margin property has four values:</p>
+          <p>margin: 25px 50px 75px 100px;</p>
+          <p>top margin is 25px</p>
+          <p>right margin is 50px</p>
+          <p>bottom margin is 75px</p>
+          <p>left margin is 100px</p>
+          
+          
+        </div>
+  
+    </section>
+  
+    <section>
+      <div id="Responsive">
+
+        <h2>Responsive</h2>
+          <h2><strong>What is Responsive Web Design?</strong></h2>
+          <p>Responsive web design makes your web page look good on all devices.</p>
+          <p>Responsive web design uses only HTML and CSS.</p>
+          <p>Responsive web design is not a program or a JavaScript.</p>
+          
+
+
+         
+      </div>
+      <div id="RWD-Intro">
+       <h2><strong>Designing For The Best Experience For All Users</strong></h2>
+          <p>Web pages can be viewed using many different devices: </p><p>desktops, tablets, and phones. Your web page should look good, and be easy to use, regardless of the device.</p>
+          <p>Web pages should not leave out information to fit smaller </p><p>devices, but rather adapt its content to fit any device.</p>
+          
+      </div>
+      <div id="RWD-Viewport">
+          <h2><strong>What is The Viewport?</strong></h2>
+          <p>The viewport is the user's visible area of a web page.</p>
+          <p>The viewport varies with the device, and will be smaller on a mobile phone than on a computer screen.</p>
+          <p>Before tablets and mobile phones, web pages were designed only for computer screens, and it was common for web pages to have a static design and a fixed size.</p>
+          <p>Then, when we started surfing the internet using tablets and mobile phones, fixed size web pages were too large to fit the viewport. To fix this, browsers on those devices scaled down the entire web page to fit the screen.</p>
+          <p>This was not perfect!! But a quick fix.</p>
+          <h2><strong>Setting The Viewport</strong></h2>
+          <p>HTML5 introduced a method to let web designers take control over the viewport, through the meta tag.</p>
+          <p>You should include the following meta viewport element in all your web pages:</p>
+          
+          <p>A meta viewport element gives the browser instructions on how to control the page's dimensions and scaling.</p>
+          <p>The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).</p>
+          <p>The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.</p>
+          <h2><strong>Size Content to The Viewport</strong></h2>
+          <p>Users are used to scroll websites vertically on both desktop and mobile devices - but not horizontally!</p>
+          <p>So, if the user is forced to scroll horizontally, or zoom out, to see the whole web page it results in a poor user experience.</p>
+          <p>Some additional rules to follow:</p>
+          <p>1. Do NOT use large fixed width elements - For example, if an image is displayed at a width wider than the viewport it can cause the viewport to scroll horizontally. Remember to adjust this content to fit within the width of the viewport.</p>
+          <p>2. Do NOT let the content rely on a particular viewport width to render well - Since screen dimensions and width in CSS pixels vary widely between devices, content should not rely on a particular viewport width to render well.</p>
+          <p>3. Use CSS media queries to apply different styling for small and large screens - Setting large absolute CSS widths for page elements will cause the element to be too wide for the viewport on a smaller device. Instead, consider using relative width values, such as width: 100%. Also, be careful of using large absolute positioning values. It may cause the element to fall outside the viewport on small devices.</p>
+          
+       
+      </div>
+    
+      <div id="RWD-Grid-View">
+          <h2><strong>What is a Media Query?</strong></h2>
+          <p>Media query is a CSS technique introduced in CSS3.</p>
+          <p>It uses the @media rule to include a block of CSS properties only if a certain condition is true.</p>
+          
+          <h2><strong>Add a Breakpoint</strong></h2>
+          <p>Earlier in this tutorial we made a web page with rows and columns, and it was responsive, but it did not look good on a small screen.</p>
+          <p>Media queries can help with that. We can add a breakpoint where certain parts of the design will behave differently on each side of the breakpoint.</p>
+          <h2><strong>Always Design for Mobile First</strong></h2>
+          <p>Mobile First means designing for mobile before designing for desktop or any other device (This will make the page display faster on smaller devices).</p>
+          <p>This means that we must make some changes in our CSS.</p>
+          <p>Instead of changing styles when the width gets smaller than 768px, we should change the design when the width gets larger than 768px. </p>
+          <h2><strong>Another Breakpoint</strong></h2>
+          <p>You can add as many breakpoints as you like.</p>
+          <p>We will also insert a breakpoint between tablets and mobile phones.</p>
+<a href=https://www.w3schools.com/css/default.asp>(source)</a>      
+    </div>
+  
+   
+    </section>
+  </article>
+  </div>
+  </div>
+</div>
+<!-- css webpage end-->
+
+
+<div id="lable">
+  <a class="button is-info" href="#top" >Back to top</a>
+  </div>
+<!-- BACK TO TOP label-->
+
+<footer>
+  &copy; 2018, HU YANI
+  <br>
+  All trademarks and registered trademarks appearing on 
+  this site are the property of their respective owners.
+</footer>
+<!-- footer end-->
+
+</body>
+
+</html>
+
+
