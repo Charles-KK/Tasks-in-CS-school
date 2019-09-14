@@ -1,2 +1,7 @@
 # IS5102-Database
-This is a database assignment for university of St Andrews in 2018
+There are three database assignments for university of St Andrews in 2018
+# IS5103-Web Technology
+There are two assignments for web technology.
+# CS5044-Information Visualisation
+
+
